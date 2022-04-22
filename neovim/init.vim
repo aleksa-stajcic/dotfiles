@@ -138,16 +138,15 @@ require('rust-tools').setup(opts)
 EOF
 
 " phpactor lsp setup
-" commented out because it seems to not be needed
-" **testing required
+" default settings
 lua <<EOF
--- require'lspconfig'.phpactor.setup{
---     on_attach = on_attach,
---     init_options = {
---         ["language_server_phpstan.enabled"] = false,
---         ["language_server_psalm.enabled"] = false,
---     }
--- }
+ require'lspconfig'.phpactor.setup{
+     on_attach = on_attach,
+     init_options = {
+         ["language_server_phpstan.enabled"] = false,
+         ["language_server_psalm.enabled"] = false,
+     }
+ }
 EOF
 
 " Setup Completion

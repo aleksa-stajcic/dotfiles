@@ -10,8 +10,11 @@ set scrolloff=8
 set cursorline
 
 " termguicolors isn't supported by Terminal.app
-set background=light
+" and some other therminal emulators
+" so need to run `:set termguicolors!` and `:set background=dark`
+" otherwise the light colorscheme will look weird
 set termguicolors
+set background=light
 colorscheme gruvbox
 
 " have a fixed column for the diagnostics to appear in

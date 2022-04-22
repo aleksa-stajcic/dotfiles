@@ -137,6 +137,9 @@ local opts = {
 require('rust-tools').setup(opts)
 EOF
 
+" phpactor lsp setup
+" commented out because it seems to not be needed
+" **testing required
 lua <<EOF
 -- require'lspconfig'.phpactor.setup{
 --     on_attach = on_attach,

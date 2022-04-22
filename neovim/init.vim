@@ -81,6 +81,9 @@ Plug 'nvim-telescope/telescope.nvim'
 " Colorscheme
 Plug 'morhetz/gruvbox'
 
+" Phpactor
+Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
+
 call plug#end()
 
 " Set completeopt to have a better completion experience
@@ -132,6 +135,16 @@ local opts = {
 -- vim.api.nvim_buf_set_keymap(0, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', {noremap = true})
 
 require('rust-tools').setup(opts)
+EOF
+
+lua <<EOF
+-- require'lspconfig'.phpactor.setup{
+--     on_attach = on_attach,
+--     init_options = {
+--         ["language_server_phpstan.enabled"] = false,
+--         ["language_server_psalm.enabled"] = false,
+--     }
+-- }
 EOF
 
 " Setup Completion

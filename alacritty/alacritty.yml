@@ -1,0 +1,107 @@
+schemes:
+  # Colors (Gruvbox light)
+  gruvbox_light: &gruv-light
+    # Default colors
+    primary:
+      # hard contrast: background = '#f9f5d7'
+      background: '#fbf1c7'
+      # background: '#f9f5d7'
+      # soft contrast: background = '#f2e5bc'
+      foreground: '#3c3836'
+    # Normal colors
+    normal:
+      black:   '#fbf1c7'
+      red:     '#cc241d'
+      green:   '#98971a'
+      yellow:  '#d79921'
+      blue:    '#458588'
+      magenta: '#b16286'
+      cyan:    '#689d6a'
+      white:   '#7c6f64'
+    # Bright colors
+    bright:
+      black:   '#928374'
+      red:     '#9d0006'
+      green:   '#79740e'
+      yellow:  '#b57614'
+      blue:    '#076678'
+      magenta: '#8f3f71'
+      cyan:    '#427b58'
+      white:   '#3c3836'
+
+  # Colors (Pop!_OS)
+  pop_os: &pop-os
+    # Default colors
+    primary:
+      background: '#333333'
+      foreground: '#F2F2F2'
+    # Normal colors
+    normal:
+      black:   '#333333'
+      red:     '#CC0000'
+      green:   '#4E9A06'
+      yellow:  '#C4A000'
+      blue:    '#3465A4'
+      magenta: '#75507B'
+      cyan:    '#06989A'
+      white:   '#D3D7CF'
+    # Bright colors
+    bright:
+      black:   '#88807C'
+      red:     '#F15D22'
+      green:   '#73C48F'
+      yellow:  '#FFCE51'
+      blue:    '#48B9C7'
+      magenta: '#AD7FA8'
+      cyan:    '#34E2E2'
+      white:   '#EEEEEC'
+
+  # Colors (Cyberpunk-neon)
+  cyberpunk: &cyberpunk
+    # Default colours
+    primary:
+      background: '0x000b1e'
+      foreground: '0x0abdc6'
+    # Colors that should be used to draw the terminal cursor. If these are unset,
+    # the cursor colour will be the inverse of the cell colour.
+    # cursor:
+    #   text: '0x2e2e2d'
+    #   # text: '0x000000'
+    #   cursor: '0xffffff'
+    # Normal colors
+    normal:
+      black:   '0x123e7c'
+      red:     '0xff0000'
+      green:   '0xd300c4'
+      yellow:  '0xf57800'
+      blue:    '0x123e7c'
+      magenta: '0x711c91'
+      cyan:    '0x0abdc6'
+      white:   '0xd7d7d5'
+    # Bright colors
+    bright:
+      black:   '0x1c61c2'
+      red:     '0xff0000'
+      green:   '0xd300c4'
+      yellow:  '0xf57800'
+      blue:    '0x00ff00'
+      magenta: '0x711c91'
+      cyan:    '0x0abdc6'
+      white:   '0xd7d7d5'
+    # dim colors
+    dim:
+      black:   '0x1c61c2'
+      red:     '0xff0000'
+      green:   '0xd300c4'
+      yellow:  '0xf57800'
+      blue:    '0x123e7c'
+      magenta: '0x711c91'
+      cyan:    '0x0abdc6'
+      white:   '0xd7d7d5'
+
+colors: *cyberpunk
+
+# Fonts
+font:
+  size: 13
+

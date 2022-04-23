@@ -1,3 +1,6 @@
+key_bindings:
+  - { key: N, mods: Command, action: SpawnNewInstance }
+
 schemes:
   # Colors (Gruvbox light)
   gruvbox_light: &gruv-light

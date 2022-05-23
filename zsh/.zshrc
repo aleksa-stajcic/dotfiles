@@ -25,6 +25,8 @@ unsetopt EXTENDED_HISTORY
 
 alias la="ls -la" # List all files in long format
 alias cl="clear"
+alias n="nvim"
+alias v="vim"
 
 #
 # Input/output

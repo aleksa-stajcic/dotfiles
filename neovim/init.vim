@@ -28,6 +28,9 @@ let mapleader = "\<space>"
 nnoremap <leader>; mkA;<Esc>`k
 nnoremap <leader>, mkA,<Esc>`k
 nmap <leader>[ A<space>{<Enter><Esc>O
+nnoremap <leader>d "_d
+
+nnoremap <leader>h :nohl<Enter>
 
 " Insert mode remaps
 " Auto-complete brackets and quotes
@@ -36,6 +39,9 @@ inoremap [ []<left>
 inoremap { {}<left>
 " inoremap ' ''<left>
 " inoremap \" \""<left>
+
+" Visual mode remaps
+vnoremap <leader>d "_d
 
 " Setting wrap for minified js files
 au BufRead js_*.js set wrap

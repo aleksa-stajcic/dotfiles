@@ -14,7 +14,7 @@ set cursorline
 " so need to run `:set termguicolors!` and `:set background=dark`
 " otherwise the light colorscheme will look weird
 set termguicolors
-set background=light
+" set background=light
 colorscheme gruvbox
 
 " have a fixed column for the diagnostics to appear in

@@ -42,6 +42,7 @@ inoremap { {}<left>
 
 " Visual mode remaps
 vnoremap <leader>d "_d
+vnoremap <leader>y "*y
 
 " Setting wrap for minified js files
 au BufRead js_*.js set wrap

@@ -29,14 +29,15 @@ nnoremap <leader>; mkA;<Esc>`k
 nnoremap <leader>, mkA,<Esc>`k
 nmap <leader>[ A<space>{<Enter><Esc>O
 nnoremap <leader>d "_d
+nnoremap <leader>s a¯\_(ツ)_/¯<Esc>
 
 nnoremap <leader>h :nohl<Enter>
 
 " Insert mode remaps
 " Auto-complete brackets and quotes
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
+" inoremap ( ()<left>
+" inoremap [ []<left>
+" inoremap { {}<left>
 " inoremap ' ''<left>
 " inoremap \" \""<left>
 

@@ -29,6 +29,7 @@ nnoremap <leader>; mkA;<Esc>`k
 nnoremap <leader>, mkA,<Esc>`k
 nmap <leader>[ A<space>{<Enter><Esc>O
 nnoremap <leader>d "_d
+nnoremap <leader>t :term<Enter>
 nnoremap <leader>s a¯\_(ツ)_/¯<Esc>
 
 nnoremap <leader>h :nohl<Enter>

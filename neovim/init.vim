@@ -1,7 +1,7 @@
 filetype plugin indent on
 set number
 set relativenumber
-set ignorecase
+" set ignorecase
 set nowrap
 set tabstop=4 softtabstop=4
 set shiftwidth=4
@@ -10,11 +10,11 @@ set scrolloff=8
 set cursorline
 
 " termguicolors isn't supported by Terminal.app
-" and some other therminal emulators
+" and some other terminal emulators
 " so need to run `:set termguicolors!` and `:set background=dark`
 " otherwise the light colorscheme will look weird
 set termguicolors
-" set background=light
+set background=light
 colorscheme gruvbox
 
 " have a fixed column for the diagnostics to appear in
@@ -89,6 +89,8 @@ Plug 'nvim-telescope/telescope.nvim'
 
 " Colorscheme
 Plug 'morhetz/gruvbox'
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 " Phpactor
 Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
